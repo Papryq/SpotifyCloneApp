@@ -1,4 +1,4 @@
-"use clinet";
+"use client";
 
 import { useState } from "react";
 import { SessionContextProvider } from "@supabase/auth-helpers-react";
