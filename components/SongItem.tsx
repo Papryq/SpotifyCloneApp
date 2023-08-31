@@ -10,7 +10,7 @@ import PlayButton from "./PlayButton";
 
 interface SongItemProps {
 	data: Song;
-	onClick: (id: string) => void
+	onClick: (id: string) => void;
 }
 
 const SongItem: React.FC<SongItemProps> = ({
@@ -43,7 +43,7 @@ const SongItem: React.FC<SongItemProps> = ({
 			relative
 			aspect-square
 			w-full
-			h-fulllayButto
+			h-full
 			rounded-md
 			overflow-hidden
 		">
